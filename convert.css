@@ -1,0 +1,255 @@
+
+#swimmersList {
+    background-color: antiquewhite;
+}
+
+.headers1 {
+    position: relative;
+    left: 43%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#heats {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 800px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.eventsHeader2 {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.heatNumber{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+#menu {
+   position: absolute;
+   left: 50%;
+   top: 10px;
+   transform: translate(-50%,0);
+}
+
+#showHeatsButton {
+    position: absolute;
+    left: 50%;
+    top: 42px;
+    transform: translate(-50%,0);
+}
+
+#compName {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 23px;
+    
+    width: 80%;
+    text-align: center;
+}
+
+#startList {
+    position: absolute;
+    top: 18%;
+    left: 50%; 
+    transform: translate(-50%,0);
+    width: 900px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.heatHeaders1 {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.eventsHeader21 {
+margin: 0 auto;
+width: 200px;
+text-align: center;
+font-weight: 600;
+font-size: 18px;
+}
+
+#programDiv {
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    width: 600px;
+    transform: translate(-50%,0);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.swimmersData {
+    display: grid;
+    grid-template-columns: 3% 27% 21% 10% 12.5% 20% 7%;
+}
+
+.swimmersDataHeader {
+    display: grid;
+    grid-template-columns: 3% 25% 17% 11.5% 20.5% 15% 7%;
+}
+
+.swimmersData2Header {
+    display: grid;
+    grid-template-columns: 19% 24% 20% 18% 22%;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+.swimmersData2 {
+    display: grid;
+    grid-template-columns: 3% 15% 29% 22% 16% 17%;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    background-color: rgb(218, 217, 224);
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .heatHeaders1 {
+        font-size: 11px;
+    }
+    
+    .headers1 {
+      font-size: 11px;
+    }
+    
+    .eventsHeader2 {
+        font-size: 11px;
+    }
+    
+    #startList {
+        width: 94%;
+        padding: 2px;
+        border: 1px solid black;
+    }
+    
+    .eventsHeader21 {
+        font-size: 11px;
+    }
+    
+    .heatNumber {
+        font-size: 11px;
+    }
+    
+    #heats {
+        width: 96%;
+        padding: 5px;
+    }
+    
+    #firstDayHeats {
+        font-size: 7.5px;
+    }
+    
+    #secondDayHeats {
+        font-size: 7.5px;
+    }
+    
+    #thirdDayHeats {
+        font-size: 7.5px;
+    }
+    
+    
+    #firstDay {
+        font-size: 7.5px;
+    }
+    
+    #thirdDay {
+        font-size: 7.5px;
+    }
+    
+    #secondDay {
+        font-size: 7.5px;
+    }
+    
+        #programDiv {
+            position: absolute;
+            top: 210px;
+            left: 55%;
+            width: 90%;
+            transform: translate(-50%,0);
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-size: 11px;
+        }
+    
+        #compName {
+            font-size: 11px;
+            top: 90px;
+            width: 80%;
+            text-align: center;
+        }
+    
+        #menu {
+        position: absolute;
+       left: 50%;
+       top: 10px;
+       width: 90%;
+       transform: translate(-50%,0);
+        }
+    
+    #program {
+        font-size: 10px;
+    }
+    #startListButton {
+        font-size: 10px;
+    }
+    #showHeats {
+        font-size: 10px;
+    }
+    
+    #showHeatsButton {
+        position: absolute;
+        left: 50%;
+        top: 60px;
+        width: 95%;
+        transform: translate(-50%,0);
+    }
+    #showAll {
+        font-size: 10px;
+    }
+    #showFirst {
+        font-size: 10px;
+    }
+    #showSecond {
+        font-size: 10px;
+    }
+    #showThird {
+        font-size: 10px;
+    }
+    }
